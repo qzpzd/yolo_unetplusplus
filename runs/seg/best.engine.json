@@ -1,0 +1,10 @@
+{
+  "image_size": 256,
+  "margin": 0.15,
+  "threshold": 0.5,
+  "encoder_name": "resnet34",
+  "input_name": "images",
+  "output_name": "logits",
+  "max_batch": 8,
+  "precision": "fp16"
+}

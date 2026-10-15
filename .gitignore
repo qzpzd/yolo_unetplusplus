@@ -1,0 +1,24 @@
+__pycache__/
+*.py[cod]
+*.cache
+.pytest_cache/
+.venv/
+venv/
+
+# 预训练权重由 Ultralytics 在训练时下载
+yolo11n.pt
+yolo26n.pt
+yolo11n.onnx
+yolo11n.engine
+
+# engine 与导出它的 GPU、TensorRT 版本绑定，克隆后在本机重新导出
+*.engine
+*.onnx
+
+# 训练中间文件和推理输出
+runs/infer/
+runs/yolo/exp/*.jpg
+runs/yolo/exp/*.png
+runs/yolo/**/last.pt
+runs/yolo/**/results.csv
+runs/yolo/**/args.yaml

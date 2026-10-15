@@ -1,0 +1,10 @@
+{
+  "end2end": false,
+  "names": [
+    "circle",
+    "rectangle",
+    "triangle"
+  ],
+  "imgsz": 640,
+  "nms_in_graph": false
+}

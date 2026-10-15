@@ -1,0 +1,18 @@
+{
+  "classes": [
+    "circle",
+    "rectangle",
+    "triangle"
+  ],
+  "image_size": 640,
+  "bbox_margin": 0.15,
+  "train_images": 60,
+  "val_images": 20,
+  "seg_crops": 199,
+  "class_counts": {
+    "circle": 87,
+    "rectangle": 65,
+    "triangle": 47
+  },
+  "seed": 42
+}
